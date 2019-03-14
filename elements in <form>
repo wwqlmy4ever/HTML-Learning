@@ -1,0 +1,36 @@
+<form>
+<input type="url" />
+<input type="submit" />
+<input type="file" />
+
+<input type="range" min="0" max="10" />
+
+<input type="color" />
+<input type="email" />
+<input type="submit" />
+<input type="text" placeholder="输入a-z中的3个字母" pattern="[a-z]{3}" />
+<input type="submit" />
+
+<input type="text" list="username" />
+<datalist id="username">
+	<option value="11" />
+    <option value="12" />
+    <option value="13" />
+    <option value="14" />
+    <option value="15" />
+    <option value="16" />
+</datalist>
+
+<input type="date" multiple="multiple" size="10"/>
+<select>
+	<option>1</option>
+    <option selected="selected">2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+</select>
+</form>
